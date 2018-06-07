@@ -50,3 +50,5 @@ var perDataSize=perData.length;
          }
      }
 });
+
+client.login(process.env.BOT_TOKEN);
