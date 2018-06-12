@@ -30,7 +30,7 @@ try {
     var perRead = fs.readFileSync('person.txt', 'utf8');    
 } catch(e) {}
 var perData = perRead.split(",");
-var perDataSize=perData.length;
+var perDataSize=perData.length - 1;
 
     if (wordInString(mess,'hh')== 1) {
         var args = message.content.substring(100).split(' ');
@@ -42,7 +42,7 @@ var perDataSize=perData.length;
         switch(cmd) {
             // !ping
             case '':
-          message.channel.send(perData[perDataRand]+' pooped in my '+ locData[locDataRand] +' brother' + locDataSize);
+          message.channel.send(perData[perDataRand]+' pooped in my '+ locData[locDataRand] +' brother');
 //		    message: 'Poop in my ' + locData[locDataRand] +' brother'
 //		    message: perData[perDataRand]+' pooped in my gym brother'
             break;
