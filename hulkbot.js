@@ -42,7 +42,7 @@ var perDataSize=perData.length;
         switch(cmd) {
             // !ping
             case '':
-          message.channel.send(perData[perDataRand]+' pooped in my '+ locData[locDataRand] +' brother');
+          message.channel.send(perData[perDataRand]+' pooped in my '+ locData[locDataRand] +' brother' + locDataSize);
 //		    message: 'Poop in my ' + locData[locDataRand] +' brother'
 //		    message: perData[perDataRand]+' pooped in my gym brother'
             break;
