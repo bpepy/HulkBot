@@ -46,9 +46,7 @@ var perDataSize=perData.length - 1;
 //		    message: 'Poop in my ' + locData[locDataRand] +' brother'
 //		    message: perData[perDataRand]+' pooped in my gym brother'
             break;
-            
          }
      }
 });
-
 client.login(process.env.BOT_TOKEN); 
