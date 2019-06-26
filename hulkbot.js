@@ -20,6 +20,7 @@ var fs = require('fs');
 try {  
     var locRead = fs.readFileSync('location.txt', 'utf8');    
 } catch(e) {}
+	
 var locData = locRead.split(",");
 var locDataSize=locData.length - 1;
 
